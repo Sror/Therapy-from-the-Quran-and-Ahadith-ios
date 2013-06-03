@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>New item</key>
+	<dict>
+		<key>Type</key>
+		<string>PSMultiValueSpecifier</string>
+		<key>Title</key>
+		<string>Font Name</string>
+		<key>Key</key>
+		<string>FontFamily</string>
+		<key>Titles</key>
+		<array>
+			<string>Helvetica</string>
+			<string>Arial</string>
+			<string>Times New Roman</string>
+		</array>
+		<key>Values</key>
+		<array>
+			<string>Helvetica</string>
+			<string>Arial</string>
+			<string>Times New Roman</string>
+		</array>
+		<key>DefaultValue</key>
+		<string>Helvetica</string>
+	</dict>
+	<key>New item - 2</key>
+	<dict>
+		<key>DefaultValue</key>
+		<integer>16</integer>
+		<key>Key</key>
+		<string>FontSize</string>
+		<key>MaximumValue</key>
+		<integer>20</integer>
+		<key>MaximumValueImage</key>
+		<string>edit-size-up-icon.png</string>
+		<key>MinimumValue</key>
+		<integer>10</integer>
+		<key>MinimumValueImage</key>
+		<string>edit-size-down-icon.png</string>
+		<key>Type</key>
+		<string>PSSliderSpecifier</string>
+	</dict>
+</dict>
+</plist>

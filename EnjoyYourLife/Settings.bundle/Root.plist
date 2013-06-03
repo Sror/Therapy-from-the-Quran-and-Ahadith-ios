@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>1</string>
+			<key>Key</key>
+			<string>AppVersion</string>
+			<key>Title</key>
+			<string>App Version</string>
+			<key>Titles</key>
+			<array>
+				<string>1.0</string>
+			</array>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>File</key>
+			<string>License</string>
+			<key>Title</key>
+			<string>Terms &amp; Conditions</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Font</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Font Color</string>
+			<key>Key</key>
+			<string>FontColor</string>
+			<key>Titles</key>
+			<array>
+				<string>Black</string>
+				<string>White</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Black</string>
+				<string>White</string>
+			</array>
+			<key>DefaultValue</key>
+			<string>Black</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Read Chapters</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Mark All Chapters As Unread</string>
+			<key>Key</key>
+			<string>ResetReadChapters</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Support</string>
+			<key>FooterText</key>
+			<string>CopyrightNotice</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Contact Us</string>
+			<key>Key</key>
+			<string>ContactUS</string>
+			<key>DefaultValue</key>
+			<string>Contact US</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>About Us</string>
+			<key>FooterText</key>
+			<string>CopyrightNotice</string>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>File</key>
+			<string>AboutUs</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
